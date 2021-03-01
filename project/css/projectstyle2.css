@@ -1,0 +1,194 @@
+body{
+    font-family: Poppins, sans-serif;
+    background-color: #2C3E50;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+h1{
+    margin: 0;
+}
+button,
+input,
+textarea {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    padding: 0;
+    border: 0;
+}
+
+button:focus,
+button:active
+input:focus,
+input:active
+textarea:focus,
+textarea:active {
+    outline: none;
+    box-shadow: none;
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.font-14{
+    font-size: 14px;
+    line-height: 1.5;
+    color:#fff;
+}
+.font-12{
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* deadpool-movie */
+.deadpool-movie{
+    height: auto;
+}
+.deadpool-movie a{
+    position:relative;
+    top:27px;
+    left: 20px;
+}
+
+.deadpool-movie div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    position: absolute;
+    top: 385px;
+    left: 98px;
+}
+
+.deadpool-movie h1{
+    font-size: 36px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+
+/* main */
+    
+    /* des-title */
+    .des-title{
+        position: absolute;
+        top: 492px;
+        margin: 0 20px 19px;
+    }
+
+    .des-title dt{
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+    .des-title dd{
+        font-size: 12px;
+        line-height: 1.5;
+        color: rgba(255,255,255,0.5);
+        margin-left: 0;
+    }
+
+    .des-title a{
+        color: #2ECC71;
+        
+    }
+
+
+    /* .dirt */
+
+    .dirt{
+        position: absolute;
+        top:591px;
+        display: flex;
+        margin: 0 0 10px 20px;
+
+    }
+
+    .dirt > dd{
+        opacity: 0.5;
+        margin-left: 27px;
+    }
+
+    .green{
+        color: #2ECC71;
+        
+    }
+
+    .wihte{
+        color: #fff;
+
+    }
+
+
+    /* .serfilm */
+
+    .serfilm{
+        display: flex;
+        margin: 0 0 28px 20px;
+    }
+
+    .serfilm dd{
+        opacity: 0.5;
+        margin-left: 14px;
+    }
+
+    .cast{
+        color: #fff;
+        margin-left: 20px;
+    }
+    .cast dt{
+        font-size: 14px;
+        line-height: 1.5;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .cast dd{
+        display:flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin: 0;
+    }
+
+
+/* footer */
+
+.botton-goup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    height: 86px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #2C3E50;
+    
+}
+
+.add-list-botton{
+    margin-right: 7px;
+    width: 115px;
+    height: 46px;
+    font-size:  12px;
+    line-height: 1.5;
+    font-weight: 500;
+    background-color: #fff;
+}
+
+.watch-botton {
+    width: 213px;
+    height: 46px;
+    font-size:  12px;
+    line-height: 1.5;
+    font-weight: 500;
+    background-color: #C0392B;
+}

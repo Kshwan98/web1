@@ -1,0 +1,39 @@
+
+ul,li,a{
+    list-style-type: none;
+    padding: 0;
+    color: #000;
+    text-decoration: none;
+}
+
+.menu-goup ul {
+    background-color: #5c5c5c;
+    width: 1000px;
+    display: flex;
+}
+
+.menu-goup ul ul{
+    display: none;
+    position: absolute;
+    background-color:#5c5c5c;
+}
+
+.menu-goup ul li:hover ul{
+    display: block;
+   
+    
+}
+
+
+
+
+.menu a:hover + .ol-goup{
+    display: block;
+    
+
+}
+.ol-goup {
+    background-color: #5c5c5c;
+    display: none;
+}
+
